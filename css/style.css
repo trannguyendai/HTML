@@ -1,1 +1,66 @@
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
 
+.question {
+    padding: 20px;
+    background-color: #55acee;
+    text-align: justify;
+    font-size: 1.8rem;
+    color: black;
+    border-radius: 10px 10px 0 0;
+}
+
+.quiz, .answer {
+    width: 100%;
+    /* Adjust the width as needed */
+    margin-top: 2%;
+    float: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 24px;
+    text-align: justify;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    background-color: #c6e2ff;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.quiz:hover, .answer:hover {
+    background-color: #27ae60;
+}
+
+.result {
+    background-color: #f39c12;
+    font-size: 2rem;
+    color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+.correct-answer {
+    color: red;
+    font-weight: bold;
+    /* Optional: If you want to make the text bold */
+}
+h3 {
+    color: #4285f4;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2 {
+    text-transform: uppercase;
+    color: #CC0033;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
